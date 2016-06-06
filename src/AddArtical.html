@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head><title>My Form</title>
+<link rel="stylesheet" href="//cdn.bootcss.com/bootstrap/3.3.5/css/bootstrap.min.css">
+<script src="//cdn.bootcss.com/jquery/1.11.3/jquery.min.js"></script>
+<script src="//cdn.bootcss.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+<link href="/css/index.css" rel="stylesheet" type="text/css" />
+<link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+<script src="/js/index.min.js"></script>
+</head>
+<body>
+	<div class="wrap">
+		<div class="content">
+			<div class="header">
+			</div>
+			<h1 class="tip">Please fill in this form</h1>
+			<form class="w3-container myForm" onsubmit="return false;">
+				<label class="w3-label w3-text-green" id="tokenL">Token</label>
+				<input class="w3-input w3-text-green" type="text" name="token" id="token" required/><br>
+				<label class="w3-label w3-text-green" id="titleL">Title</label>
+				<input class="w3-input" type="text" name="title" id="title" required/><br>
+				<label class="w3-label w3-text-green" id='imageL'>Image</label>
+				<input class="w3-input" type="url" name="brief_image" id="image" required/><br>
+				<label class="w3-label w3-text-green" id='bannerL'>Banner</label>
+				<input class="w3-input" type="url" name="banner" id="banner" required/><br>
+				<label class="w3-label w3-text-green" id='contentL'>Content</label>
+				<textarea class="w3-input" cols="30" rows="5" name="content" id="content" required></textarea><br>
+				<label class="w3-label w3-text-green">Show</label>
+				<input class="w3-check" type="checkbox" name="show" id="show" checked="checked"><br>
+				<div class='row'>
+				<input id="data-back-btn" class="w3-btn w3-green col-md-3" type="button" value="Back To HomePage" />
+				<input id="data-upload-btn" class="w3-btn w3-green col-md-8" type="submit" value="Submit"/><br>
+				</div>
+			</form>
+		</div>
+	</div>
+</body>
+</html>

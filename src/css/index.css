@@ -1,0 +1,54 @@
+body {
+  background-color: #eeeeef;
+}
+
+.content {
+  width: 50%;
+  margin: auto;
+  background-color: white;
+  padding-bottom: 30px;
+}
+.content .header {
+  height: 64px;
+  background-color: #f36a59;
+}
+.content .tip {
+  text-align: center;
+}
+.content .myForm {
+  width: 80%;
+  margin: auto;
+}
+.content .myForm input {
+  width: 100%;
+  margin: auto;
+  height: 30px;
+}
+.content .myForm textarea {
+  width: 100%;
+  margin: auto;
+  margin-bottom: 15px;
+  vertical-align: top;
+}
+
+.w3-label {
+  color: #2ecd7d;
+}
+
+.error {
+  margin-right: 0px;
+  float: right;
+  color: #f36a59;
+}
+
+#data-upload-btn {
+  width: 45%;
+  float: right;
+  border-radius: 3px;
+}
+
+#data-back-btn {
+  width: 45%;
+  border-radius: 3px;
+  height: 30px;
+}
